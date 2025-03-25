@@ -1,0 +1,11 @@
+说明
+前端：
+使用React构建用户界面。
+使用navigator.mediaDevices.getUserMedia获取本地音视频流。
+使用Socket.io将本地音视频流发送到服务器。
+接收并展示远程音视频流。
+后端：
+使用Node.js和Express构建服务器。
+使用Socket.io处理WebSocket连接。
+当客户端发送音视频流时，生成一个房间ID并将流与房间ID关联。
+将房间ID和流发送给连接在同一房间的所有客户端。
